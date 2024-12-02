@@ -5,4 +5,4 @@ Lien du site : https://arwenlegal.github.io/SAE303/
 
 Lien de la vidéo : https://youtu.be/C2ys4UKrqhc?si=AYFsytcE_k9lxFfh
 
-Archive GitHub : https://github.com/arwenlegal/SAE303/tree/main
+GitHub : https://github.com/arwenlegal/SAE303/tree/main
