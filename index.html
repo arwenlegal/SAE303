@@ -3,14 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top prénoms filles | SAE 303</title>
+    <title>Top prénoms féminins | SAE 303</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="ressources/css/global.css">
-    <link rel="stylesheet" href="ressources/css/ecran-titre.css">
 </head>
 <body>
-    
+<main class="sm:container sm:mx-auto border-black border-2 px-9 pt-9 mt-8 mb-8">
+    <header>
+    <div class="flex landscape:flex-row portrait:flex-col">
+        <div class="basis-3/4 content-center">
+            <h1 class="text-5xl">Top prénoms féminins, SAE 303</h1>
+        </div>
+        <div class="basis-1/4">
+            <nav>
+                <ul>
+                    <li><a href="#realisation">Notre réalisation</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#membres">Membres du groupe</a></li>
+                    <li><a href="#sources">Sources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <section id="realisation">
+        <h2 class="text-2xl">Notre réalisation</h2>
+        <div class="youtube-responsive">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/C2ys4UKrqhc?si=7S8_jchNlsmiKq25" title="Vidéo sur YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="a-propos">
+        <h2 class="text-2xl">À propos</h2>
+        <p>Pour ce projet, nous avons choisi de réaliser cette vidéo en motion design qui présente les différents prénoms féminins les plus populaires, et ce sur trois années : 1995, 2005, et 2015.</p>
+        <p>Afin de représenter chaque prénom, nous avons eu l'idée de créer des avatars inspirés des jeux vidéo rétros, le tout donc en pixel art. Nous avons donc organisé notre travail comme s'il s'agissait d'un jeu vidéo, avec plusieurs niveaux, un menu, différents affrontements entre les prénoms...</p>
+        <p>Le premier niveau, qui représente l'année 1995, est présenté sous forme de duels : chaque prénom affronte un autre, créant finalement un classement. Manon, le prénom féminin le plus donné sur cette année, est donc la gagnante générale du niveau.</p>
+        <p>Les deux derniers niveaux, représentant les années 2005 et 2015, marquent un changement de par le passage au nouveau millénaire. Il s'agit cette fois-ci d'une course, où chaque prénom se déplace à travers l'écran pour finalement se placer sur l'écran, formant un diagramme en bâton.</p>
+    </section>
+    <section id="membres">
+        <h2 class="text-2xl">Membres de l'équipe</h2>
+        <div class="flex landscape:flex-row portrait:flex-col">
+            <div class="basis-1/4">
+                <img src="ressources/img/ABINAYA.png" alt="Avatar d'Abinaya KETHEESWARAN">
+                <h3>Abinaya KETHEESWARAN</h3>
+            </div>
+            <div class="basis-1/4">
+                <img src="ressources/img/MELISSA.png" alt="Avatar de Melissa KEREMOGLU">
+                <h3>Melissa KEREMOGLU</h3>
+            </div>
+            <div class="basis-1/4">
+                <img src="ressources/img/ARWEN.png" alt="Avatar d'Arwen LEGAL">
+                <h3>Arwen LEGAL</h3>
+            </div>
+            <div class="basis-1/4">
+                <img src="ressources/img/CYRINE.png" alt="Avatar de Cyrine MAHI">
+                <h3>Cyrine MAHI</h3>
+            </div>
+        </div>
+    </section>
+    <section id="sources">
+        <h2 class="text-2xl">Sources</h2>
+        <p>Données : <a href="https://www.insee.fr/fr/statistiques/8205621?sommaire=8205628">INSEE</a></p>
+        <p>Musiques utilisées :</p>
+        <ul>
+            <li><a href="https://youtu.be/WdahYB4laFs?si=-3zNWPoKCAmrJILt">The Adventure Begins</a> - Adam Haynes</li>
+            <li><a href="https://youtu.be/NzFKyZc_va4?si=sTXDwW7RI4RAb7ld">Boss Battle</a> - Adam Haynes</li>
+            <li><a href="https://youtu.be/VZpbDDdMGcQ?si=UNgPjysiGzrCYbIT">Rise or Fall</a> - Phantasy Star II</li>
+            <li><a href="https://youtu.be/dfGBM_SQ2yU?si=lphEA0lJsstJH-VB">Level Music 4 (from Hamachi OST)</a> - Adam Haynes</li>
+        </ul>
+    </section>
+    <footer class="mt-8 flex flex-col items-center mb-3">
+        <p class="text-xs">BUT MMI S3, TP2</p>
+        <p class="text-xs">IUT de Cergy-Pontoise, 2024</p>
+        <div class="logos flex flex-row justify-center">
+            <img src="ressources/img/CY_Cergy_Paris_Universite_-_Logo.png" alt="Logo CYU" class="max-w-40 max-h-12">
+            <img src="ressources/img/CY-IUT_coul240.png" alt="Logo IUT" class="max-w-30 max-h-12">
+        </div>
+    </footer>
+</main>
 </body>
 </html>
